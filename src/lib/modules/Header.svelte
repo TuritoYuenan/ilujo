@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let toolName = ""
+	export let toolName: string = ""
 </script>
 
 <svelte:head>

@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let [id, name] = ""
-	const [width, height] = [100, 100]
-	const center = Math.min(width, height) / 2
+	export let id: string, name: string
+	const [width, height]: number[] = [100, 100]
+	const center: number = Math.min(width, height) / 2
 </script>
 
 <a href="#/{id}">

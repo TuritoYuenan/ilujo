@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Tool from "./modules/Tool.svelte";
 
 	const Tools = [
